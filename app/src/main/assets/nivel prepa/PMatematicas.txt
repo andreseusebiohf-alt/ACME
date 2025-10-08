@@ -1,0 +1,10 @@
+1. ¿Cuál es el valor de 2x + 3 = 11 ?  
+2. ¿Cuál es la derivada de f(x) = x^2?  
+3. ¿Cuál es el área de un triángulo con base 10 cm y altura 6 cm?
+4. ¿Cuál es el valor de la raíz cuadrada de 49?  
+5. ¿Cuál es el resultado de (3x)(2x^2)?  
+6. ¿Cuál es el perímetro de un cuadrado de lado 8 cm?  
+7. ¿Cuál es el valor de 1/2 + 3/4?  
+8. ¿Cuál es la fórmula del teorema de Pitágoras?  
+9. ¿Cuál es el valor de logaritmo en base 10 de 1000?  
+10. ¿Cuál es la pendiente de la recta que pasa por los puntos (1,2) y (3,6)?  

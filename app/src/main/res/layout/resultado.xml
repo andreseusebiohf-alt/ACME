@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/res"
+    android:layout_width="300dp"
+    android:layout_gravity="center"
+    android:background="@drawable/edittextdraw"
+    android:layout_height="500dp">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Resultados"/>
+
+    <ImageView
+        android:id="@+id/imgRes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txt1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/imgitca"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="450dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:text="a"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:text="a"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="a"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/textObjeto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:text="Objeto desbloqueado!!"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        />
+
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_boton"
+        android:layout_marginTop="350dp"
+        android:layout_below="@+id/txt1"
+        android:layout_marginLeft="30dp"
+        android:text="Reintentar"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="200dp"/>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="250dp"
+        android:text="Salir"
+        android:textColor="#FFFFFF"
+    android:backgroundTint="#2979FF"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/background_boton" />
+</RelativeLayout>

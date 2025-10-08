@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtJugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eleccion del player"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/ImgJugador"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/txtJugador"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/mano"/>
+
+    <TextView
+        android:id="@+id/txtPC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eleccion de la PC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ImgJugador"/>
+
+
+    <ImageView
+        android:id="@+id/ImgPC"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtPC"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mano"/>
+
+    <TextView
+        android:id="@+id/txtContador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Jugador: 0  PC: 0"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ImgPC"/>
+
+    <Button
+        android:id="@+id/Piedra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Piedra"
+        android:layout_below="@+id/txtContador"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:id="@+id/Papel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Papel"
+        android:layout_below="@+id/txtContador"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="150dp"/>
+
+    <Button
+        android:id="@+id/Tijera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tijera"
+        android:layout_below="@+id/txtContador"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="250dp"/>
+</RelativeLayout>

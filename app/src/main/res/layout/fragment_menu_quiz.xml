@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgbiblio">
+<RelativeLayout
+    android:id="@+id/QuizMenu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".classesdequiz.MenuQuiz">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/textmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Aprende ya"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="6dp" />
+
+    <!-- Matemáticas -->
+    <FrameLayout
+        android:id="@+id/Mateframe"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/textmenu"
+        android:layout_marginTop="75dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageButton
+            android:id="@+id/Mate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_boton"
+            android:elevation="8dp"
+            android:translationZ="10dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="Botón de Matemáticas" />
+
+        <TextView
+            android:id="@+id/textMate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:elevation="100dp"
+            android:gravity="center"
+            android:text="Matemáticas"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <!-- Geografía e Inglés -->
+    <GridLayout
+        android:id="@+id/gridgeoingles"
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/Mateframe"
+        android:layout_centerHorizontal="true"
+        android:columnCount="2"
+        android:padding="5dp"
+        android:layout_marginTop="16dp">
+
+        <!-- Geografía: FrameLayout superponiendo texto sobre botón -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <ImageButton
+                android:id="@+id/Geo"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:background="@drawable/bk2"
+                android:elevation="8dp"
+                android:translationZ="4dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Botón de Geografía" />
+
+            <TextView
+                android:id="@+id/textgeo"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:text="Geografía"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@android:color/transparent"
+                android:elevation="100dp"/>
+        </FrameLayout>
+
+        <!-- Inglés: FrameLayout superponiendo texto sobre botón -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <ImageButton
+                android:id="@+id/Ing"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:background="@drawable/bk3"
+                android:elevation="8dp"
+                android:translationZ="4dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Botón de Inglés" />
+
+            <TextView
+                android:id="@+id/textIng"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:text="Inglés"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@android:color/transparent"
+                android:elevation="100dp"/>
+        </FrameLayout>
+
+    </GridLayout>
+
+
+    <!-- Historia Universal -->
+    <FrameLayout
+        android:id="@+id/histframe"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/gridgeoingles"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+        <ImageButton
+            android:id="@+id/HistUni"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bk4"
+            android:elevation="8dp"
+            android:translationZ="4dp"
+            android:contentDescription="Botón de Historia Universal" />
+
+        <TextView
+            android:id="@+id/texthistuni"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Historia Universal"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:elevation="100dp"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+    <!-- Cultura Popular y Gramática -->
+    <GridLayout
+        android:id="@+id/gridculgram"
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/histframe"
+        android:layout_centerHorizontal="true"
+        android:columnCount="2"
+        android:padding="5dp"
+        android:layout_marginTop="16dp">
+
+        <!-- Cultura Popular -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:id="@+id/textCulPop"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:text="Cultura Popular"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@android:color/transparent"
+                android:elevation="100dp" />
+
+            <ImageButton
+                android:id="@+id/CulPop"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:background="@drawable/bk5"
+                android:elevation="8dp"
+                android:translationZ="4dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Botón de Cultura Popular" />
+        </FrameLayout>
+
+        <!-- Gramática -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:id="@+id/textGram"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:text="Gramatica"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@android:color/transparent"
+                android:elevation="100dp"/>
+
+            <ImageButton
+                android:id="@+id/Gram"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:background="@drawable/bk6"
+                android:elevation="8dp"
+                android:translationZ="4dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Botón de Gramática" />
+        </FrameLayout>
+
+    </GridLayout>
+
+    <!-- Ciencias Naturales -->
+    <FrameLayout
+        android:id="@+id/cienNaturalesframe"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/gridculgram"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+        <ImageButton
+            android:id="@+id/CN"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bk7"
+            android:elevation="8dp"
+            android:translationZ="4dp"
+            android:contentDescription="Botón de Ciencias Naturales" />
+
+        <TextView
+            android:id="@+id/textCN"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Ciencias Naturales"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:elevation="100dp"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+    <!-- Deportes -->
+    <FrameLayout
+        android:id="@+id/framedeportes"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/cienNaturalesframe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+        <ImageButton
+            android:id="@+id/Dep"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bk8"
+            android:elevation="8dp"
+            android:translationZ="4dp"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="Botón de Deportes" />
+
+        <TextView
+            android:id="@+id/textDeportes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Deportes"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:elevation="100dp"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+</RelativeLayout>
+</ScrollView>

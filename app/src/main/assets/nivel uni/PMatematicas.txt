@@ -1,0 +1,10 @@
+1. ¿Cuál es la derivada de f(x) = x^3 + 2x^2 - x + 5 ?  
+2. ¿Cuál es la solución general de la ecuación diferencial  y' = 3y ?  
+3. ¿Cuál es el determinante de la matriz A = ( 2  1 ), ( 3  4 )?  
+4. ¿Cuál es la integral definida de (2x + 1) con limites entre 0 y 1?  
+5. ¿Cuál es el rango de la matriz B = ( 1  2  3 ), ( 2  4  6 ), ( 3  6  9 )?  
+6. ¿Cuál es la raíz principal de la ecuación  x^2 - 5x + 6 = 0 ?  
+7. ¿Cuál es el valor del limite de x+2/x cuando x tiende a 1 ?  
+8. ¿Cuál es la transformada de Laplace de f(t) = t ?    
+9. ¿Cuál es la solución del sistema lineal ( x + y = 4 ), ( x - y = 2 )?  
+10. ¿Cuál es el valor de la serie infinita: Sumatoria de 1/n^2 donde n = 1?  

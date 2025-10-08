@@ -1,0 +1,10 @@
+1. ¿Cuál es el resultado de 8 × 7?
+2. ¿Cuál es la raíz cuadrada de 144?
+3. ¿Cuánto es 15% de 200?
+4. ¿Qué número sigue en la serie: 2, 4, 8, 16, ...?
+5. ¿Cuál es el área de un triángulo de base 10 y altura 5?
+6. Si x = 3, ¿cuánto vale 2x² + 1?
+7. ¿Qué fracción es equivalente a 0.75?
+8. ¿Cuál es el perímetro de un cuadrado de lado 6 cm?
+9. ¿Cuál es el valor de π (pi) redondeado a dos decimales?
+10. ¿Cuál es el máximo común divisor de 18 y 24?

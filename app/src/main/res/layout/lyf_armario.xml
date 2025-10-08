@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="350dp"
+    android:layout_height="500dp"
+    tools:ignore="MissingConstraints"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/imgarmfondo" >
+        <TextView
+            android:id="@+id/txtArm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Armario"/>
+
+        <ScrollView
+            android:id="@+id/bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txtArm"
+            >
+
+            <GridLayout
+                android:id="@+id/ContenedorImg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="4"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/ImgMate"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:src="@drawable/imgitca"
+                    android:layout_margin="30dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/ImgIng"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:src="@drawable/imgzelda"
+                    android:layout_margin="30dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/ImgHistUni"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:src="@drawable/imgluigi"
+                    android:layout_margin="30dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/ImgGram"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:src="@drawable/imgmario"
+                    android:layout_margin="30dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/ImgGeo"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:src="@drawable/imgperu"
+                    android:layout_margin="30dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/ImgDep"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:src="@drawable/imgmexa"
+                    android:layout_margin="30dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/ImgCultPop"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:src="@drawable/imgwicked"
+                    android:layout_margin="30dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/ImgCN"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:src="@drawable/imgclash"
+                    android:layout_margin="30dp"
+                    android:clickable="true"
+                    android:scaleType="centerCrop" />
+            </GridLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,44 @@
+
+
+
+
+11
+9
+7
+10
+Manos
+Pies
+Cabeza
+Pecho
+Tenis
+Golf
+Bádminton
+Squash
+Llegar a la meta en el menor tiempo
+Saltar más alto que los demás
+Correr largas distancias
+Dar la vuelta al estadio
+Triatlón
+Pentatlón
+Maratón
+Heptatlón
+Zona de tiro libre
+Zona defensiva
+Zona central
+Zona exterior
+1
+2
+3
+4
+Boxeo
+Voleibol
+Tenis
+Natación
+Voleibol
+Baloncesto
+Fútbol
+Béisbol
+Estar en forma para realizar actividad física
+Ser el más rápido
+Tener músculos grandes
+Comer mucho

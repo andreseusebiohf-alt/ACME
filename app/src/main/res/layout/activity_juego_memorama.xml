@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgfondojgos"
+    tools:context=".juegoMemorama">
+    <TextView
+        android:id="@+id/tMemorama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Memorama"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:paddingBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tConta"
+        android:layout_below="@+id/tMemorama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parejas: 0/8"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:paddingBottom="12dp"
+        android:layout_marginLeft="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tMemorama"
+        android:id="@+id/textoerrores"
+        android:text="Faltas:0/10"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:paddingBottom="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_below="@+id/tConta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:padding="16dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:background="#FFF"
+        android:layout_centerVertical="true"
+        />
+
+</RelativeLayout>

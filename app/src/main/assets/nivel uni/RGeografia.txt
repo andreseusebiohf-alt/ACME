@@ -1,0 +1,44 @@
+
+
+
+
+Temperatura y precipitación  
+Altitud y latitud  
+Presión atmosférica  
+Velocidad del viento  
+Conformal  
+Equivalente  
+Afiláctica  
+Azimutal  
+Expansión del fondo marino  
+Subducción continental  
+Erosión fluvial  
+Deriva glacial  
+Meteorización  
+Fusión  
+Subducción  
+Compactación  
+Corriente del Golfo  
+Corriente de Humboldt  
+Corriente de California  
+Corriente Circumpolar  
+Valles en forma de U  
+Valles en forma de V  
+Mesetas volcánicas  
+Llanuras aluviales  
+SIG (Sistemas de Información Geográfica)  
+Teledetección  
+Cartografía manual  
+Fotogrametría  
+Frontera etnográfica  
+Frontera geométrica  
+Frontera física  
+Frontera económica  
+Modelo de Burgess  
+Modelo sectorial de Hoyt  
+Modelo de múltiples núcleos  
+Modelo latinoamericano  
+Huella ecológica  
+PIB per cápita  
+Índice de Gini  
+Tasa de natalidad

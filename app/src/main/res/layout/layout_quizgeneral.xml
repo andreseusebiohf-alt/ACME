@@ -1,0 +1,132 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".classesdequiz.quizglobal">
+
+        <!-- Número de Pregunta -->
+        <TextView
+            android:id="@+id/numeropregunta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="Pregunta 1"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <!-- Barra de progreso -->
+        <ProgressBar
+            android:id="@+id/brrprogreso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/barracargabk"
+            android:layout_below="@id/numeropregunta"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp" />
+
+        <!-- Imagen de la pregunta -->
+        <ImageView
+            android:id="@+id/im1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/brrprogreso"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/imgccn" />
+
+        <!-- Texto de la pregunta -->
+        <TextView
+            android:id="@+id/preguntaelegida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/im1"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+
+        <!-- Opciones de respuesta -->
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/preguntaelegida"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="15dp">
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:button="@android:color/transparent"
+                android:background="@drawable/botonesradio"
+                android:textColor="@drawable/colortexto"
+                android:elevation="4dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:button="@android:color/transparent"
+                android:background="@drawable/botonesradio"
+                android:textColor="@drawable/colortexto"
+                android:elevation="4dp"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:button="@android:color/transparent"
+                android:background="@drawable/botonesradio"
+                android:textColor="@drawable/colortexto"
+                android:elevation="4dp"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <RadioButton
+                android:id="@+id/rb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:button="@android:color/transparent"
+                android:background="@drawable/botonesradio"
+                android:textColor="@drawable/colortexto"
+                android:elevation="4dp"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </RadioGroup>
+
+    </RelativeLayout>
+</ScrollView>
